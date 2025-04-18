@@ -62,6 +62,6 @@ Each subproject is self-contained, with input/output examples and mathematical b
 ## Prerequisites  
 Install the required packages:  
 ```bash
-pip install numpy pandas matplotlib scipy
+pip install numpy pandas matplotlib scipy sklearn
 
 
