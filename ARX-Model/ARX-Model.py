@@ -98,11 +98,11 @@ def create_arx_matrix(y, u, ny=2, nu=2, delay=4):
 # ==================================================================================================
 
 # Einlesen der Eingangsdaten (u.csv)
-u_df = pd.read_csv('ARX - Modell/Probeklausur/u.csv', header=None)    # header = none sorgt dafür dass erste Zeile nicht als header genommen wird (Weil es keinen gibt)
+u_df = pd.read_csv('u.csv', header=None)    # header = none sorgt dafür dass erste Zeile nicht als header genommen wird (Weil es keinen gibt)
 u = u_df.values.flatten()  # In 1D-Array umwandeln
 
 # Einlesen der Ausgangsdaten (y.csv)
-y_df = pd.read_csv('ARX - Modell/Probeklausur/y.csv', header=None)
+y_df = pd.read_csv('y.csv', header=None)
 y = y_df.values.flatten()  # In 1D-Array umwandeln
 
 # Ausgabe zur Kontrolle
