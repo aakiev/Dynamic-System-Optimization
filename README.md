@@ -18,6 +18,7 @@ Each subproject is self-contained, with input/output examples and mathematical b
 
 ## Subprojects  
 
+---
 ### 1. ARX Modeling  
 - Implements a **manual ARX model** without external ML libraries.  
 - Includes **data preprocessing**, **noise injection**, **signal smoothing**, and **model evaluation** (RMSE, MAE).  
@@ -45,23 +46,15 @@ Each subproject is self-contained, with input/output examples and mathematical b
 
 ---
 
-### 4. Genetic Algorithm  
-- Generic GA framework to solve **nonlinear optimization tasks**.  
-- Modular design for crossover, mutation, selection strategies.  
-- Tunable parameters: mutation rate, elitism, generation size.
-
-📁 [`/Genetic-Algorithm`](./Genetic-Algorithm)
-
----
 
 ## Technologies Used  
 - **Programming Language**: Python  
-- **Libraries**: `numpy`, `matplotlib`, `scipy`, `pandas`  
-- **Development Environment**: Jupyter Notebook, VS Code  
+- **Libraries**: `numpy`, `matplotlib`, `scipy`, `pandas`, `sklearn`, `mpl_toolkits`
+- **Development Environment**: VS Code  
 
 ## Prerequisites  
 Install the required packages:  
 ```bash
-pip install numpy pandas matplotlib scipy sklearn
+pip install numpy pandas matplotlib scipy sklearn mpl_toolkits
 
 
